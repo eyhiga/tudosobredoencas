@@ -1,0 +1,416 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Arnold Goodway <arnold@tweaker.co.za>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: tweaker4/comments.php:64
+msgid " Required fields are marked <span class=\"required\">*</span>"
+msgstr "Vereiste velde is gemerk <span class=\"required\">*</span>"
+
+#. Text in echo
+#: tweaker4/loop.php:20
+#: tweaker4/loop.php:22
+#: tweaker4/loop.php:55
+#: tweaker4/single.php:10
+msgid " on "
+msgstr " op "
+
+#. Text in function
+#: tweaker4/comments.php:21
+msgid "% Responses to"
+msgstr "% Terugvoere vir"
+
+#. Text in function
+#: tweaker4/functions.php:219
+msgid "%1$s at %2$s"
+msgstr "%1$s by %2$s"
+
+#. Text in function
+#: tweaker4/options/theme-options.php:111
+msgid "%s Support"
+msgstr "%s Ondersteuning"
+
+#. Text in function
+#: tweaker4/options/theme-options.php:62
+msgid "%s Theme Options"
+msgstr "%s Tema Opsies"
+
+#. Text in function
+#: tweaker4/comments.php:31
+msgid "&laquo; Newer Comments"
+msgstr "&laquo; Meer Onlangse  Kommentare"
+
+#. Text in function
+#: tweaker4/search.php:22
+#: tweaker4/archive.php:38
+#: tweaker4/index.php:18
+msgid "&laquo; Newer Entries"
+msgstr "&laquo; Meer Onlangse Artikels"
+
+#. Text in function
+#: tweaker4/functions.php:219
+msgid "(Edit)"
+msgstr "(Wysig)"
+
+#. Text in function
+#: tweaker4/functions.php:212
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">s&ecirc;:</span>"
+
+#. Text in echo
+#: tweaker4/404.php:7
+msgid "An error has occurred. Something has either been moved or it is no longer available."
+msgstr "'n Fout het ingetree. Iets is of geskuif of dit is nie meer beskikbaar nie."
+
+#. Text in echo
+#: tweaker4/archive.php:18
+#: tweaker4/archive.php:20
+#: tweaker4/archive.php:22
+msgid "Archive for "
+msgstr "Argief vir"
+
+#. Text in echo
+#: tweaker4/archive.php:14
+msgid "Archive for the "
+msgstr "Argief vir die "
+
+#. Text in function
+#: tweaker4/options/theme-options.php:1
+msgid "Black"
+msgstr "Swart"
+
+#. Text in echo
+#: tweaker4/loop.php:22
+#: tweaker4/loop.php:55
+#: tweaker4/single.php:10
+msgid "By "
+msgstr "Deur  "
+
+#. Text in function
+#: tweaker4/comments.php:66
+msgid "Cancel reply"
+msgstr "Kanselleer antwoord"
+
+#. Text in echo
+#: tweaker4/find.php:32
+msgid "Categories"
+msgstr "Kategorie&euml;"
+
+#. Text in echo
+#: tweaker4/archive.php:14
+msgid "Category"
+msgstr "Kategorie"
+
+#. Text in function
+#: tweaker4/functions.php:65
+msgid "Click for Home"
+msgstr "Kliek vir Tuisblad"
+
+#. Text in echo
+#: tweaker4/options/theme-options.php:74
+#: tweaker4/options/theme-options.php:97
+msgid "Color Scheme"
+msgstr "Kleur Skema"
+
+#. Text in function
+#: tweaker4/loop.php:47
+#: tweaker4/comments.php:66
+msgid "Comment"
+msgstr "Kommentaar"
+
+#. Text in function
+#: tweaker4/loop.php:47
+msgid "Comments"
+msgstr "Kommentare"
+
+#. Text in echo
+#: tweaker4/comments.php:54
+msgid "Comments are closed."
+msgstr "Kommentaar is gesluit."
+
+#. Text in function
+#: tweaker4/loop.php:37
+msgid "Continue reading "
+msgstr "Lees verder "
+
+#. Text in echo
+#: tweaker4/footer.php:19
+msgid "Copyright"
+msgstr "Kopiereg"
+
+#. Text in function
+#: tweaker4/no-sidebar.php:22
+#: tweaker4/page.php:14
+#: tweaker4/loop.php:47
+#: tweaker4/loop.php:55
+#: tweaker4/single.php:10
+msgid "Edit"
+msgstr "Wysig"
+
+#. Text in function
+#: tweaker4/comments.php:66
+msgid "Email"
+msgstr "Epos"
+
+#. Text in function
+#: tweaker4/archive.php:20
+msgid "F Y"
+msgstr "F Y"
+
+#. Text in echo
+#: tweaker4/loop.php:20
+msgid "Featured | By "
+msgstr "Vertoon Artikel | Deur "
+
+#. Text in function
+#: tweaker4/functions.php:65
+msgid "Home"
+msgstr "Tuisblad"
+
+#. Text in function
+#: tweaker4/comments.php:66
+msgid "Leave a Reply"
+msgstr "Los 'n Antwoord"
+
+#. Text in function
+#: tweaker4/comments.php:66
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Aangeteken as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Teken uit hierdie rekening\">Teken af?</a>"
+
+#. Text in echo
+#: tweaker4/find.php:17
+msgid "Monthly Archives"
+msgstr "Maandelikse Argiewe"
+
+#. Text in function
+#: tweaker4/comments.php:66
+msgid "Name"
+msgstr "Naam"
+
+#. Text in function
+#: tweaker4/comments.php:21
+msgid "No Responses to"
+msgstr "Geen Terugvoering op"
+
+#. Text in function
+#: tweaker4/sidebar.php:18
+msgid "No Title Added"
+msgstr "Geen Titel Beskikbaar Nie"
+
+#. Text in echo
+#: tweaker4/index.php:26
+msgid "Not Found"
+msgstr "Nie Gevind nie"
+
+#. Text in function
+#: tweaker4/comments.php:32
+msgid "Older Comments &raquo;"
+msgstr "Ouer Kommentare &raquo;"
+
+#. Text in function
+#: tweaker4/search.php:23
+#: tweaker4/archive.php:39
+#: tweaker4/index.php:19
+msgid "Older Entries &raquo;"
+msgstr "Ouer Artikels &raquo;"
+
+#. Text in function
+#: tweaker4/comments.php:21
+msgid "One Response to"
+msgstr "Een Kommentaar vir"
+
+#. Text in function
+#: tweaker4/no-sidebar.php:20
+#: tweaker4/page.php:13
+#: tweaker4/loop.php:42
+#: tweaker4/single.php:17
+msgid "Pages:"
+msgstr "Blaaie:"
+
+#. Text in function
+#: tweaker4/loop.php:9
+#: tweaker4/loop.php:20
+#: tweaker4/loop.php:22
+#: tweaker4/loop.php:55
+msgid "Permalink to %s"
+msgstr "Vasskakel na %s"
+
+#. Text in function
+#: tweaker4/comments.php:1
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Moet nie hierdie blaai direk laai nie. Dankie!"
+
+#. Text in echo
+#: tweaker4/loop.php:55
+msgid "Post"
+msgstr "Pos"
+
+#. Text in function
+#: tweaker4/comments.php:66
+msgid "Post Comment"
+msgstr "Pos Kommentaar"
+
+#. Text in echo
+#: tweaker4/archive.php:16
+msgid "Posts tagged "
+msgstr "Artikels met die etiket "
+
+#. Text in function
+#: tweaker4/footer.php:20
+msgid "Powered by %1$s and %2$s"
+msgstr "Aangedryf deur %1$s en %2$s"
+
+#. Text in echo
+#: tweaker4/find.php:54
+#: tweaker4/sidebar.php:11
+msgid "Recent Posts"
+msgstr "Onlangse Artikels"
+
+#. Text in echo
+#: tweaker4/options/theme-options.php:106
+msgid "Remember that you can customize the <strong>Widgets</strong>, <strong>Menus</strong>, <strong>Background</strong> and <strong>Header</strong> from the <strong>Appearance</strong> menu."
+msgstr " "
+
+#. Text in function
+#: tweaker4/comments.php:40
+msgid "Reply"
+msgstr "Antwoord"
+
+#. Text in echo
+#: tweaker4/find.php:6
+#: tweaker4/searchform.php:11
+msgid "Search"
+msgstr "Soek"
+
+#. Text in function
+#: tweaker4/search.php:6
+msgid "Search Results for: %s"
+msgstr "Soek Resulate vir: %s"
+
+#. Text in echo
+#: tweaker4/searchform.php:10
+msgid "Search this site..."
+msgstr "Soek deur hierdie werf..."
+
+#. Text in echo
+#: tweaker4/options/theme-options.php:112
+msgid "Should you experience any problem with the theme please visit the <a href=\"http://forum.tweaker.co.za/\" title=\"\">Support Forum</a>."
+msgstr "Sou jy enige probleme ondervind met die tema besoek asseblief die  <a href=\"http://forum.tweaker.co.za/\" title=\"\">Ondersteunings Forum</a>."
+
+#. Text in echo
+#: tweaker4/index.php:27
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "Jammer, maar jy soek iets vir iets wat nie hier is nie."
+
+#. Text in echo
+#: tweaker4/single.php:47
+msgid "Sorry, there does not appear to be any posts here."
+msgstr "Jammer, dit blyk asof daar geen artikels hier is nie."
+
+#. Text in echo
+#: tweaker4/find.php:43
+msgid "Tags"
+msgstr "Etikette"
+
+#. Text in echo
+#: tweaker4/archive.php:24
+msgid "The following articles were authored by "
+msgstr "Die volgende artikels is geskryf deur "
+
+#. Text in function
+#: tweaker4/options/theme-options.php:1
+msgid "Theme Options"
+msgstr "Tema Opsies"
+
+#. Text in function
+#: tweaker4/functions.php:65
+msgid "This entry is filed under %1$s and tagged %2$s."
+msgstr "Hierdie artikel is geliaseer onder %1$s met die etiket(te) %2$s."
+
+#. Text in function
+#: tweaker4/functions.php:65
+msgid "This entry is filed under %1$s."
+msgstr "Die volgende is geliaseer onder %1$s."
+
+#. Text in echo
+#: tweaker4/comments.php:5
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Hierdie bydra is beskerm deur 'n wagwoord. Sleutel die wagwoord in om toegang tot die kommentare te kry."
+
+#. Text in function
+#: tweaker4/comments.php:66
+msgid "Website"
+msgstr "Webtuiste"
+
+#. Text in function
+#: tweaker4/options/theme-options.php:1
+msgid "White"
+msgstr "Wit"
+
+#. Text in function
+#: tweaker4/functions.php:65
+msgid "Widgets you add here will be added to center footer widget area"
+msgstr "Enigiets wat jy hier insit sal vertoon word op die middel voeterstrook"
+
+#. Text in function
+#: tweaker4/functions.php:65
+msgid "Widgets you add here will be added to left footer widget area"
+msgstr "Enigiets wat jy hier insit sal vertoon word op die linkerkantse voeterstrook"
+
+#. Text in function
+#: tweaker4/functions.php:65
+msgid "Widgets you add here will be added to right footer widget area"
+msgstr "Enigiets wat jy hier insit sal vertoon word op die regtekantse voeterstrook"
+
+#. Text in function
+#: tweaker4/functions.php:65
+msgid "Widgets you add here will be added to the sidebar"
+msgstr "Enigiets wat jy hier insit sal vertoon word op die systrook"
+
+#. Text in function
+#: tweaker4/archive.php:22
+msgid "Y"
+msgstr "Y"
+
+#. Text in function
+#: tweaker4/functions.php:65
+msgid "You are Home"
+msgstr "Jy is op die Tuisblad"
+
+#. Text in echo
+#: tweaker4/404.php:10
+msgid "You have searched for something that could not be found. Hopefully the following will be of assistance to you."
+msgstr "Jy het vir iets gesoek wat nie gevind kan word nie. Hopelik sal die volgende van hulp wees."
+
+#. Text in echo
+#: tweaker4/search.php:30
+msgid "You have searched for something that could not be found. The following might be of assistance in finding whatever you are looking for:"
+msgstr "Jy het vir iets gesoek wat nie gevind kon word nie. Die volgende mag van hulp wees om dit te vind waarna jy soek:"
+
+#. Text in function
+#: tweaker4/comments.php:66
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Jy moet <a href=\"%s\">aangeteken wees</a> om kommentaar te lewer."
+
+#. Text in echo
+#: tweaker4/functions.php:215
+msgid "Your comment is awaiting moderation."
+msgstr "Jou kommentaar wag op goedkeuring."
+
+#. Text in function
+#: tweaker4/comments.php:66
+msgid "Your email address will not be published."
+msgstr "Jou epos adres sal nie gepubliseer word nie."
+
+#. Text in function
+#: tweaker4/archive.php:18
+msgid "j F Y"
+msgstr "j F Y"
+

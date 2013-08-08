@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kvarken\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-03 06:59+0100\n"
+"PO-Revision-Date: 2013-08-03 07:06+0100\n"
+"Last-Translator: Carolina Nymark <myazalea@hotmail.com>\n"
+"Language-Team: Layout.nu <carro@layout.nu>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\kvarken\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/404.php:3
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:196
+msgid "Page not found"
+msgstr "Sidan kunde inte hittas"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:5
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Arkiv: %s"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:6
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Arkiv: %s"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:7
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Arkiv: %s"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:8
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Arkiv: %s"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:9
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Arkiv: %s"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:10
+msgid "Archive:"
+msgstr "Arkiv:"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:26
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/author.php:31
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/comments.php:11
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/comments.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/index.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/page.php:11
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/search.php:18
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/single.php:17
+msgid "Pages: "
+msgstr "Sidor: "
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:29
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/author.php:34
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/index.php:20
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/search.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/single.php:22
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Written by</a> <a href=\"%3$s\" title=\"%4$s\" rel=\"author"
+"\">%5$s</a> <a href=\"%1$s\" rel=\"bookmark\">%2$s</a>. "
+msgstr ""
+"<a href=\"%1$s\">Skrivet av</a> <a href=\"%3$s\" title=\"%4$s\" rel=\"author"
+"\">%5$s</a> <a href=\"%1$s\" rel=\"bookmark\">%2$s</a>. "
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:33
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/author.php:18
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/author.php:38
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:336
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/index.php:24
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/search.php:25
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/single.php:26
+#, php-format
+msgid "View all posts by %s"
+msgstr "Visa alla inägg av %s"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:44
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/author.php:49
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/index.php:35
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/search.php:35
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/single.php:32
+#, php-format
+msgid "Category: %1s"
+msgstr "Kategori: %1s"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:49
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/author.php:54
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/index.php:40
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/search.php:40
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/single.php:37
+#, php-format
+msgid "Tagged: %1$s. "
+msgstr "Etiketter: %1$s. "
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:51
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/author.php:56
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/index.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/page.php:14
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/search.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/single.php:39
+msgid "Edit"
+msgstr "Redigera"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:58
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/author.php:63
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/index.php:49
+msgid "Next page &rarr;"
+msgstr "Nästa sida &rarr;"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/archive.php:59
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/author.php:64
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/index.php:50
+msgid "&larr; Previous page"
+msgstr "&larr; Föregående sida"
+
+# this is refering to the author. Authors name will be inserted at %
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/author.php:6
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:329
+#, php-format
+msgid "About %s"
+msgstr "Om %s"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/comments.php:3
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Det här inlägget är lösenordsskyddat. Skriv in lösenordet för att läsa "
+"kommentarerna."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:28
+msgid "Header Navigation"
+msgstr "Navigering för sidhuvud"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:35
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:71
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:77
+msgid "Sunset"
+msgstr "Solnedgång"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:41
+msgid "Stones"
+msgstr "Stenar"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:47
+msgid "Flower"
+msgstr "Blomma"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:53
+msgid "A cloudy day"
+msgstr "En molnig dag"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:59
+msgid "Seagull"
+msgstr "Fiskmås"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:65
+msgid "Birds On Rock"
+msgstr "Fåglar på klippa"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:134
+msgid "Read more: "
+msgstr "Läs mer: "
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:159
+msgid "Right Hand Sidebar"
+msgstr "Höger Sidopanel"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:160
+msgid "Widgets in this area will be shown on the right-hand side."
+msgstr "Widgets i denna panel visas på höger sida"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:166
+msgid "Footer Sidebar"
+msgstr "Sidfotspanel"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:167
+msgid "Widgets in this area will be shown in the footer."
+msgstr "Widgets i denna panel visas i sidfoten."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:193
+#, php-format
+msgid "Page %s"
+msgstr "Sida %s"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:208
+msgid "Breadcrumbs"
+msgstr "Brödsmulor"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:216
+msgid "Author info"
+msgstr "Information om författaren"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:224
+msgid "Header image placement"
+msgstr "Välj placering av bild i sidhuvud"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:232
+msgid "Hide shadows"
+msgstr "Göm skuggor"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:264
+msgid "Check this box to hide the breadcrumb navigation."
+msgstr "Klicka i rutan för att gömma brödsmulorna (navigeringen)."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:272
+msgid ""
+"Check this box to hide the author information and avatar that are displayed "
+"in single post view."
+msgstr ""
+"Klicka i rutan för att gömma den extra informationen om författaren (och "
+"avataren) som visas under enskilda inlägg."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:280
+msgid ""
+"Check this box to place the header image above the menu instead of below."
+msgstr ""
+"Klicka i rutan för att placera bilden i sidhuvudet ovanför menyn istället "
+"för under."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:288
+msgid "Check this box to hide all shadows."
+msgstr "Klicka i rutan för att  ta bort skuggorna."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/functions.php:307
+msgid "Home"
+msgstr "Hem"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\kvarken/search.php:4
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#~ msgid "View all posts by %s &rarr;"
+#~ msgstr "Visa alla inlägg av %s &rarr;"
+
+#~ msgid ""
+#~ "<a href=\"%5$s\">Written by</a> <a href=\"%2$s\" title=\"%3$s\" rel="
+#~ "\"author\">%4$s</a> %1$s. "
+#~ msgstr ""
+#~ "<a href=\"%5$s\">Skrivet av</a> <a href=\"%2$s\" title=\"%3$s\" rel="
+#~ "\"author\">%4$s</a> %1$s. "
+
+#~ msgid ""
+#~ "Written by <a href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a> %1$s. "
+#~ msgstr ""
+#~ "Skrivet av <a href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a> %1$s. "
+
+#~ msgid "<span class=\"edit-links\">Edit</span>"
+#~ msgstr "<span class=\"edit-links\">Redigera</span>"
+
+#~ msgid "Leave a comment"
+#~ msgstr "Lämna en kommentar"
+
+#~ msgid "1 comment"
+#~ msgstr "1 kommentar"
+
+#~ msgid "% comments"
+#~ msgstr "% comments"
+
+#~ msgid " comments"
+#~ msgstr " kommentarer"
+
+#~ msgid "%v comments"
+#~ msgstr "% kommentarer"
+
+#~ msgid "&#37 comments"
+#~ msgstr "% kommentarer"
+
+#~ msgid "%s comments"
+#~ msgstr "%s kommentarer"
+
+#~ msgid "%1$s comments"
+#~ msgstr "%1$s kommentarer"
+
+#~ msgid "1 comment on "
+#~ msgstr "1 kommentar till "
+
+#~ msgid "% comments on "
+#~ msgstr "% kommentrarer om "
+
+#~ msgid "Blog Archives"
+#~ msgstr "Bloggarkiv"
+
+#~ msgid "Full size is %s pixels"
+#~ msgstr "Full storlek är %s pixlar"
+
+#~ msgid "Link to full-size image"
+#~ msgstr "Länk till bild i full storlek"
+
+#~ msgid "Website: "
+#~ msgstr "Hemsida: "
+
+#~ msgid "Back to top"
+#~ msgstr "Tillbaka till toppen"
+
+#~ msgid "Footer Navigation"
+#~ msgstr "Navigering (meny) i sidfot"
+
+#~ msgid ""
+#~ "<a href=\"%1$s\">Written by</a> <a href=\"%3$s\" title=\"%4$s\" rel="
+#~ "\"author\">%5$s</a> <a href=\"%1$s\" rel=\"bookmark\"> %2$s</a>"
+#~ msgstr ""
+#~ "<a href=\"%1$s\">Skrivet av</a> <a href=\"%3$s\" title=\"%4$s\" rel="
+#~ "\"author\">%5$s</a> <a href=\"%1$s\" rel=\"bookmark\"> %2$s</a>"
+
+#~ msgid ""
+#~ "Posted by <a href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a>  %1$s"
+#~ msgstr ""
+#~ "Inlagd av <a href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a> %1$s"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Din kommentar måste godkännas innan publicering."
+
+#~ msgid "Continue reading."
+#~ msgstr "Läs mer."
+
+#~ msgid " in reply to %1$s on %2$s at %3$s:"
+#~ msgstr " som svar till %1$s den %2$s kl %3$s:"
+
+#~ msgid " on %1$s at %2$s:"
+#~ msgstr " den %1$s kl %2$s:"
+
+#~ msgid ""
+#~ "Posted by <a href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a> on %1$s"
+#~ msgstr ""
+#~ "Inlagd av <a href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a> den %1$s"
+
+#~ msgid "No Responses to "
+#~ msgstr "Inga Svar till  "
+
+#~ msgid "1 Response to "
+#~ msgstr "1 Svar till"
+
+#~ msgid "% Responses to "
+#~ msgstr "% Svar till "
+
+#~ msgid "1 Comment"
+#~ msgstr "1 Kommentar"
+
+#~ msgid "% Comments"
+#~ msgstr "% Kommentarer"
+
+#~ msgid "Category:"
+#~ msgstr "Kategori:"

@@ -1,0 +1,72 @@
+/*
+ Styles IE7 and IE8 browsers.
+*/
+
+
+
+/* Text only for screen readers 
+----------------------------------------------------*/
+.ie7 .assistive-text {
+	clip: rect(1px 1px 1px 1px); /* IE7 */	
+}
+
+/* Carousel */
+.ie7 .flex-caption {		
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000); /* For IE 7*/
+}
+
+.ie8 .flex-caption {	
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; /* For IE 8*/
+}
+
+/* Content 
+---------------------------------------------------*/
+.ie .entry-content input[type="password"] {
+	width: 20%;
+}
+
+.ie7 .site-content nav {
+	display: inline;	
+	zoom: 1;	
+}
+
+.ie7 .site-content nav a {
+	display: inline;	
+	zoom: 1;
+	padding: 5px 0;
+}
+
+/* Gallery 
+---------------------------------------------------*/
+.ie7 .gallery-columns-2 .gallery-item{
+	width: 49.9% !important;
+}
+
+.ie7 .gallery-columns-4 .gallery-item{
+	width: 24.9% !important;
+}
+
+.ie7 .gallery-columns-5 .gallery-item{
+	width: 19.9% !important;
+}
+
+.ie7 .gallery-columns-10 .gallery-item{
+	width: 9.9% !important;
+}
+
+.ie .gallery-icon img {
+	width: auto;
+}
+
+/* Full Width Template 
+---------------------------------------------------*/
+.ie .full-width {
+	width: 100% !important;
+}
+
+.ie .full-width #respond {
+	width: 73%;
+}
+
+
+

@@ -1,0 +1,270 @@
+/*
+Theme Name: Tuned
+Description: Used to style the TinyMCE editor.
+*/
+
+/* Base 
+-----------------------------------------------------*/
+html {	
+}
+
+body {	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #424242;
+}
+
+
+/* Typography 
+----------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	font-weight: 300;
+	clear: both;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #CCC;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 180%;
+}
+
+h3 {
+	font-size: 160%;
+}
+
+h4 {
+	font-size: 140%;
+}
+
+h5 {
+	font-size: 120%;
+}
+
+h6 {
+	font-size: 100%;
+}
+
+p {
+	margin: 10px 0;
+}
+
+abbr,
+acronym {
+	border-bottom: dotted 1px;
+	text-transform: uppercase;
+	cursor: help;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+big {
+	font-size: 120%;
+}
+
+cite,
+dfn,
+em,
+i,
+var {
+	font-style: italic;
+}
+
+code,
+kbd,
+samp,
+tt {
+	font-family: "Courier New", Courier, monospace;
+}
+
+del,
+s {
+	text-decoration: line-through;
+}
+
+ins,
+u {
+	border-bottom: 1px solid;
+}
+
+blockquote{
+	margin: 0 20px;
+	padding: 20px;
+	background: #EEE;
+	font-style: italic;
+}
+
+small,
+sub,
+sup {
+	font-size: 75%;
+}
+
+sub,
+sup {
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+
+pre {
+	background: #EEE;
+	font-family: "Courier New", Courier, monospace;	
+	line-height: 1.5;
+	margin-bottom: 20px;
+	padding: 20px;
+	overflow: auto;
+	max-width: 100%;
+}
+
+/* Links 
+-------------------------------------------------*/
+a {
+	color: #0040FF;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #81BEF7;
+}
+
+
+/* Lists 
+----------------------------------------------------*/
+ul ,
+ol {
+	margin: 0 0 10px 20px;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin: 0 0 0 20px;
+	line-height: 1;
+}
+
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 10px;
+}
+
+
+/* Images 
+----------------------------------------------------*/
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 3px;
+	box-shadow: 2px 2px 4px #CCC;
+}
+
+.wp-caption {
+    background: #fff;    
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+	border: none;
+}
+
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+    font-size: 12px;
+	font-style: italic;
+    line-height: 17px;
+    margin: 0;
+    padding: 5px 4px 5px;
+}
+
+
+/* Objects/embeds 
+---------------------------------------------------*/
+object,
+video,
+embed,
+iframe {
+	max-width: 100%;
+}
+
+
+/* Tables 
+---------------------------------------------------*/
+table {	
+	width: 100%;
+}
+
+table,
+th,
+td {
+	border: 1px solid #CCC;
+}
+
+th,
+td {
+	padding: 5px;
+}
+
+th {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+/* Alignment 
+----------------------------------------------*/
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.aligncenter {
+	clear: both;
+    display: block;
+    margin: 5px auto 5px auto;
+}

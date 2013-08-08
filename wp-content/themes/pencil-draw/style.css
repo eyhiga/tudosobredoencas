@@ -1,0 +1,378 @@
+/*
+Theme Name: Pencil Draw
+Theme URI: http://wpmu.lostresort.biz/pencil-draw/
+Description: A simple design layout for Wordpress 3.0+. Supports custom menus and has one left sidebar.
+			 In footer area it has two functions to generate random posts and pages. It has support for PNG transparency fix for IE6.
+	1.00 -->
+	1.10 -->Added RSS feed, feedburner and twitter share links to pages and posts
+	1.11 -->Small modifications
+	1.12 -->Added style for text widget
+	1.20 -->Some style modifications, added facebook share button. Share buttons served as one http request.
+	1.30 -->Small issues fixed
+	1.31 -->Fix for gallery appearance, removing of feed and social sites buttons from attachement page and fix for credential container width
+	
+Version: 1.31
+Author: Cristian Nistor - Lost Resort SRL
+Author URI: http://www.lostresort.biz/blog/about
+License: GPLv3
+Tags: two-columns, fixed-width, custom-menu, threaded-comments, sticky-post, green, white, blue
+By downloading and using this theme, you agree to the following terms:
+    - All variations of this theme have to remain <a href="http://www.gnu.org/licenses/gpl.html">GPL</a>
+    - You may use this theme for personal or commercial projects
+    - You may modify, translate or distribute
+
+For support requests please contact: wordpress(at)lostresort.biz.
+Requests through other channels (website etc.) can unfortunately not be responded to.
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline}
+:focus {outline:0}
+body {line-height:1;color:#000000;background #ffffff}
+ol, ul {list-style:none}
+table {border-collapse:separate;border-spacing:0}
+caption, th, td {text-align:left;font-weight:normal}
+blockquote:before, blockquote:after, q:before, q:after {content:""}
+blockquote, q {quotes:"" ""}
+
+/* Text decorations
+*******************************/
+.bold {font-weight:bold}
+.normal {font-weight:normal}
+.italic {font-style:italic}
+.underline {text-decoration:underline}
+
+/* Float
+*******************************/
+.float-right {float:right}
+.float-left {float:left}
+.float-none {float:none}
+.clear-both {clear:both}
+.display-none {display:none}
+
+/* Text align
+*******************************/
+.text-right {text-align:right}
+.text-left {text-align:left}
+.text-center {text-align:center}
+.text-justify {text-align:justify}
+
+/* Other
+*******************************/
+.clear:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+.zoom {overflow:hidden}
+.w520 {width:520px;margin-left:1em}
+.w220 {width:220px}
+.w300 {width:300px}
+.w400 {max-width:400px}
+.w600 {width:630px}
+
+/* Main styles
+*******************************/
+html {height:100%;margin-bottom:1px;/* force vertical scrollbars */}
+body {background:url(img/body-bkg.gif) repeat;color:#76725e;font-size:62.5%;text-align:left;width:1020px;margin:0 auto}
+
+/* Default fonts
+*******************************/
+body, input, select	{font-family:"Trebuchet MS", Helvetica, Jamrul, sans-serif}
+textarea, pre, tt, kbd, var, code {font-family:"Courier New", Courier, monospace}
+
+/* Header elements
+*******************************/
+h1, h2, h3, h4, h5, h6 {font-weight:normal}
+h1 {padding-bottom:8px;font-size:3em;line-height:1;font-family:"Trebuchet MS", Georgia, arial, serif}
+h2 {font-size:1.8em;font-family:"Trebuchet MS", Georgia, arial, serif}
+h3 {font-size:1.5em;padding-bottom:0.6em;font-family:"Trebuchet MS", Georgia, arial, serif}
+h4 {font-size:1.3em;line-height:1.8em;font-family:Georgia, arial, serif}
+h5 {font-size:1.2em;line-height:1.6em}
+h6 {font-size:1.1em;line-height:1.2em}
+
+/* Other elements
+*******************************/
+strong {font-weight:bold}
+em {font-style:italic}
+pre {border:1px solid #dddddd;margin-bottom:1.2em;padding:1.2em}
+ins {text-decoration:none} /*remove underline from text*/
+del {text-decoration:line-through}
+q, cite {font-style:italic}
+
+/* Links
+********************************/
+a:link, a:visited, a:focus, a:hover, a:active {color:#54bf52;text-decoration:underline;cursor:pointer}
+a:hover {text-decoration:none;color:#5288bf}
+a, a:active, a:focus {outline:none}
+
+/* Images
+*******************************/
+img {outline:0;border:0}
+
+/* Form styles
+*******************************/
+input, select, textarea {font-size:1em;vertical-align:baseline;color:#828282}
+.text, .file {cursor:text}
+.button {cursor:pointer}
+.radio, .checkbox {border:0;padding:0}
+
+/* Wordpress aligning
+*******************************/
+.aligncenter, div.aligncenter {display:block;margin-left:auto;margin-right:auto}
+.alignleft {float:left;margin:0 1em 1em 0;width:auto}
+.alignright {float:right;margin:0 0 1em 1em;width:auto}
+.wp-caption img {margin:0;padding:0;border:0 none}
+.wp-caption {border:1px solid #524f41;text-align:center;padding-top:4px}
+.wp-caption  p.wp-caption-text {font-size:0.92em;text-align:center}
+
+/* Header
+*******************************/
+#header {background:url(img/transparent.png) repeat}
+#header .top-green {background:url(img/top-left.png) no-repeat top left}
+#header .bottom-green {background:url(img/bottom-right.png) no-repeat bottom right}
+#header h1 {margin:2em 1.5em 0.2em 1.5em;max-width:580px}
+#header h1 a {background:url(img/h1-bkg.png) repeat;font-size:1.4em;font-style:italic;font-weight:bold;text-decoration:none;color:#5288bf}
+#header h1 a:hover {color:#54bf52}
+#description {margin-left:2.4em;font-size:1.8em;color:#54bf52;max-width:580px}
+#description span {background:url(img/h2-bkg.png) repeat;font-style:italic}
+
+#header-searchform {margin:5.5em 2em 0 0}
+#search-term {display:block;background:url(img/search-text-bkg.png) no-repeat center;width:200px;height:40px;border:0;padding:0.5em 1em;margin-right:6em;text-indent:1em;font-size:1.2em}
+#header-searchsubmit {position:relative;top:-3.4em;left:19em;background:url(img/header-search-button.png) no-repeat center;width:60px;height:30px;border:0;font-size:1.2em;color:#54bf52;cursor:pointer}
+#header-searchsubmit:hover {color:#5288bf}
+
+#menu {margin:2em 0 1em 2.3em}
+#menu ul {float:left;width:auto;padding:1em 2em 0 2em}
+#menu ul li {float:left;position:relative;width:auto;font-size:1.1em;line-height:1.2em}
+#menu ul li a, #menu ul .current_page_item ul a, #menu ul .current_page_item ul ul a {display:block;float:left;height:30px;background:url(img/menu-bkg.png) no-repeat;margin-right:1em;padding:0.5em 0.3em 0.3em 0.3em;text-align:center;text-decoration:none;font-style:italic;font-weight:bold;font-size:1.5em;color:#524f41}
+#menu ul li a:hover, #menu ul .current_page_item a, #menu ul .current_page_item ul a:hover, #menu ul .current_page_item ul ul a:hover {background:url(img/menu-ov-bkg.png) no-repeat}
+#menu ul ul {width:100px;position:absolute;left:-4px;top:20px;display:none}
+#menu ul li ul a {float:left;width:120px;font-weight:bold;text-align:left;height:auto;padding:5px 3px}
+#menu ul li ul a:hover {}
+#menu ul ul ul {top:auto}	
+#menu ul li ul ul {top:20px;left:-4px;margin:0}
+#menu ul li:hover ul, #menu ul li:hover ul ul ul, #menu ul li:hover ul ul ul ul{display:none}
+#menu ul li:hover ul, #menu ul li li:hover ul, #menu ul li li li:hover ul, #menu ul li li li li:hover ul{display:block}
+
+/* Main Content
+*********************************/
+#main {width:1020px}
+#main-block {width:710px;float:right;background:url(img/transparent.png) repeat}
+#left-block {width:305px;float:left;background:url(img/transparent.png) repeat;overflow:hidden}
+
+.green-draw .top-green {background:url(img/top-left.png) no-repeat top left}
+.green-draw .bottom-green {background:url(img/bottom-right.png) no-repeat bottom right}
+.green-draw .transparent, .blue-draw .transparent, #header .transparent,
+#footer .transparent, .widget .transparent {background:url(img/transparent.png) repeat;padding:3em 2.8em}
+.blue-draw .top-blue {background:url(img/blue-top-left.png) no-repeat top left}
+.blue-draw .bottom-blue{background:url(img/blue-bottom-right.png) no-repeat bottom right}
+
+#content {background:url(img/content-bkg.png) repeat-x bottom;padding-bottom:1em}
+#content  .title h2, .page-title {padding:0 0.5em;margin:0.8em 0 0.7em 0.2em;font-size:2.8em;font-style:italic;line-height:1.2em}
+#content .green-draw .title a {background:url(img/h2-bkg.png) repeat;text-decoration:none;color:#54bf52;padding:0.2em 0}
+#content .blue-draw .title a {background:url(img/h2-bkg.png) repeat;text-decoration:none;color:#5288bf;padding:0.2em 0}
+#content .green-draw .title a:hover, #content .blue-draw .title a:hover {color:#c4c2c2}
+#content .postdata {font-size:1.2em;padding:0.6em 0 0.6em 0;margin:0 0.6em 0.8em 0.6em;overflow:hidden;color:#524f41}
+#content .postdata .category a, #content .postdata .comments a {color:#5288bf;text-decoration:none}
+#content .postdata .category a:hover, #content .postdata .comments a:hover {color:#524f41}
+#content .category {background:url(img/category.png) repeat;float:left;width:380px;margin-left:0.6em;padding:0.4em 0.4em 0.5em 0.4em;font-size:1.5em;color:#524f41}
+#content .date {float:right;background:url(img/date.png) no-repeat;font-weight:bold;color:#54bf52;margin:0.6em 0.8em 0 0;padding:0.6em 0.5em 0.4em 0.5em}
+#content .comments {float:right;background:url(img/h2-bkg.png) repeat center;padding:0.5em 1em;margin:0.6em 0.5em 0 0}
+#content .entry {clear:both;overflow:hidden;font-size:1.1em}
+#page-feeds {margin-left:1.6em}
+#rss-feed {display:block;width:64px;height:64px;background:url(img/feeds-sprite.png) 0 0;margin:0 1em 1em 0}
+#rss-feed:hover {background:url(img/feeds-sprite.png) 0 64px}
+#feedburner {display:block;width:64px;height:64px;background:url(img/feeds-sprite.png) -65px 0;margin:0 1em 1em 0}
+#feedburner:hover {background:url(img/feeds-sprite.png) -65px 64px}
+#twitter {display:block;width:64px;height:64px;background:url(img/feeds-sprite.png) -130px 0;margin:0 1em 1em 0}
+#twitter:hover {background:url(img/feeds-sprite.png) -130px 64px}
+#facebook {display:block;width:64px;height:64px;background:url(img/feeds-sprite.png) -195px 0}
+#facebook:hover {background:url(img/feeds-sprite.png) -195px 64px}
+#content .entry a {color:#54bf52}
+#content .entry a:hover {color:#5288bf}
+#content .blue-draw .entry p, #content .green-draw .entry p {font-size:1.2em;font-family: Georgia, Helvetica, Jamrul, sans-serif;line-height:1.2em;color:#122f4d;padding:0.5em 0.7em}
+#content .green-draw .entry p {color:#113310}
+#content .entry h1 {background:url(img/heading.png) repeat center;margin:0 1em;font-size:3.2em}
+#content .entry h3 {background:url(img/h2-bkg.png) repeat center;margin:0.6em 1em}
+#content .entry h2 {background:url(img/h1-bkg.png) repeat center;margin:0.7em 0.6em;padding:0.2em 0;font-size:3em;color:#54bf52}
+#content .entry h3, h2.entry-title {padding:0.4em 0 0.6em 0.5em;color:#524f41;font-style:italic;font-weight:bold}
+.entry-title a {background:url(img/h2-bkg.png) repeat;text-decoration:none;font-size:1.6em;color:#5288bf;margin:1em 0.4em;padding-left:0.5em}
+.entry-title a:hover {color:#524f41}
+#content .entry p {background:url(img/p-bkg.png) repeat;margin:0.5em 1.2em}
+#content .sticky .entry p {background:url(img/sticky-p-bkg.png) repeat top;margin:0 1.2em}
+#content .entry h4, #content .entry h5, #content .entry h6 {font-style:italic;margin:0.4em 0 0.6em 0.5em;color:#5288bf}
+#content .post-tags {background:url(img/h2-bkg.png) repeat center;margin:0.3em 1.4em 2em 1.1em;font-size:1.2em}
+#content .more-pages {background:url(img/h2-bkg.png) repeat center;margin:0.5em 1.2em 0.5em 1.2em;font-size:1.2em}
+#content .more-pages p, #content .post-tags p {padding:0.5em 0.5em 0.5em 1em;margin:0}
+#content .more-pages a {padding-right:0.5em;color:#5288bf}
+#content .post-tags a {text-decoration:none;padding:0.7em 0 0.5em 0.2em;font-size:1.2em}
+.entry div {background:url(img/p-bkg.png) repeat;margin:0.5em 1.2em;padding:0.6em 0.8em;font-size:1.1em}
+#content .entry div p {background:none;margin:0}
+.entry div div {margin:0.3em 0;background:none;color:#5288bf;border:1px solid #5288bf}
+.entry blockquote {background:url(img/bq-bkg.png) repeat-y left;font-style:italic;margin-left:1.5em;padding-left:1.5em}
+.entry table {margin:1em;border-collapse:collapse}
+.entry table th{border:1px solid #5288bf;text-align:center;padding:0.4em;font-size:1.1em;font-weight:bold}
+.entry table td {padding:0.3em;border:1px solid #5288bf}
+.entry dl {background:url(img/p-bkg.png) repeat;line-height:1.4;margin:1em;padding:1em 1.2em}
+.entry dl dt {font-weight:bold;margin:0.3em 0}
+.entry .gallery {width:99%}
+.entry .gallery-item {margin:0;padding:1em 0;background:none}
+.entry address {margin:1em 2em;line-height:1.3em;font-size:1.1em;font-style:italic}
+.entry pre {margin:0.5em 1.8em}
+.entry ul, .entry ol, .entry ul ul, .entry ul ol, .entry ol ol, .entry ol ul  {margin: 1em 1em 1em 2.8em;padding-left:1em;list-style-image:url(img/bullet-list.png)}
+.entry ul li {line-height:1.4em;color:#5288bf}
+.entry ol li {margin-bottom:0.4em}
+.entry ins {color:#dc3231}
+.entry p label input {border: 1px solid #5288bf;margin:1em 0}
+.entry p input {border: 1px solid #5288bf;color:#5288bf}
+#author-post {margin:1em 1.3em 0.6em 1.3em;padding:1em;font-size:1.2em;background:url(img/h2-bkg.png) center repeat}
+#author-post a {text-decoration:none}
+#author-post a:hover {color:#524f41}
+#author-post strong a {color:#54bf52}
+.logged-in-as {font-size:1.2em}
+.entry-meta {padding:0.7em 0 0.7em;margin:0.2em 0 0.2em 1.8em;font-size:1.2em}
+.entry-summary, .entry-content {font-size:1.2em;padding:0.5em 0 0.7em 0.7em}
+.entry-summary p {background:url(img/p-bkg.png) repeat;margin:0.5em 0.8em 0.5em 0.2em;padding:0.5em}
+.entry-content {margin-bottom:4em;font-weight:bold}
+.entry-utility {padding:0.5em 0 0.7em 0.7em;margin:0 0 1em 1em;font-size:1.1em;font-weight:bold}
+.children-pages li a{line-height:1.4em}
+.nav-entries {overflow:hidden;width:670px;margin:1em 0 1em 2em}
+.posts-navigation  {width:630px;margin:1.5em 0.6em 2em 1em}
+.comments-navigation {width:623px;margin:0.8em 0.6em 2em 0.2em}
+.comments-navigation .prev a, .comments-navigation .next a, .nav-entries .prev a, .nav-entries .next a {background:url(img/h2-bkg.png) center repeat;float:left;font-size:1.4em;color:#5288bf}
+.comments-navigation .next a {float:right}
+.comments-navigation .next a, .comments-navigation .prev a {padding:0.5em;text-align:center}
+.nav-entries .next a {float:right}
+.nav-entries .prev a span, .nav-entries .next a span {display:block;padding:0.5em;text-align:center}
+.posts-navigation .prev a, .posts-navigation .next a {background:url(img/date.png) center repeat;float:left;font-size:1.4em;margin-left:0.4em;padding:0.5em;color:#5288bf;text-decoration:underline}
+.posts-navigation .next a {float:right}
+.posts-navigation .prev a:hover, .posts-navigation .next a:hover {color:#524f41;text-decoration:none}
+.comments-navigation .prev a:hover, .comments-navigation .next a:hover, .nav-entries .prev a:hover,
+.nav-entries .next a:hover, .posts-navigation .prev a:hover {text-decoration:none;color:#524f41}
+
+#wp-calendar {width:245px;font-size:1em;margin-bottom:1em}
+#wp-calendar caption {margin-bottom:0.5em;padding:0.4em 0.5em 0.4em 0;text-align:right;font-weight:bold;color:#54bf52;font-size:1.1em}
+#wp-calendar th, #wp-calendar td {padding:0.3em;text-align:center;color:#a8a285}
+#wp-calendar th {color:#5288bf;padding-bottom:0.5em}
+#wp-calendar tbody td a {color:#54bf52;background:url(img/h2-bkg.png) repeat center;padding:0.1em}
+#wp-calendar tbody td a:hover, #wp-calendar #prev a:hover, #wp-calendar #next a:hover {color:#5288bf}
+#wp-calendar thead th {font-weight:bold}
+#wp-calendar #prev {text-align:left;padding-top:0.4em;font-size:1.3em}
+#wp-calendar #next {text-align:right;padding-top:0.4em;font-size:1.3em}
+#wp-calendar #prev a, #wp-calendar #next a  {color:#54bf52}
+
+/* Left Sidebar
+ *******************************/
+#left-block ul {padding:1em 0.5em 0.5em 0.5em}
+#left-block ul li {padding:0.4em 0.5em;margin:0.5em 0.6em;font-size:1.3em;line-height:1.1em}
+#left-block ul li a {background:url(img/p-bkg.png) repeat center;padding:0.1em 1em 0.5em 1em;color:#524f41;line-height:1.4em}
+#left-block ul li a:hover {text-decoration:none;color:#5288bf}
+#left-block ul ul {padding:0}
+#left-block li li {padding:0.3em 0 0 1.5em;margin-top:0.5em;background:none;font-size:1em}
+#left-block h3 {padding:0.2em 0 0.3em 0.6em;font-size:2.5em;font-style:italic;font-family:'Tangerine', "Comic Sans MS", Arial, Helvetica, sans-serif;color:#5288bf}
+#left-block .widget {margin:0 0 1em 0;}
+#left-block .widget .transparent {padding-bottom:4em;min-height:170px}
+#left-block .textwidget {font-size:1.2em;line-height:1.4em;margin:2em 1.1em}
+#left-block .transparent .textwidget strong, #left-block .transparent .textwidget b {color:#5288bf}
+.widget .top-widget {background:url(img/widget-top-bkg.png) no-repeat top left}
+.widget .bottom-widget {background:url(img/widget-bottom-bkg.png) no-repeat bottom right}
+.widget h3 {margin-top:1em}
+.tags {padding:1em 1em 2em 1em;font-size:1.2em}
+.tags a {line-height:1.2em}
+
+/* Comments
+ *******************************/
+#comments {background:url(img/comm-cont-bkg.png) repeat-x top;margin:1em 1.4em 0 1.5em;padding-top:1em}
+#recentcomments {padding:0 1.2em 1.2em;line-height:1.4}
+#recentcomments li {padding-left:0}
+#recentcomments li a, #recentcomments li a:hover {padding:0;border:0}
+
+.leavecomment {margin:1em 0;padding:0.5em;background:url(img/p-bkg.png) repeat}
+#loggedin {margin:0.6em 0 0.6em 0;font-size:1.2em}
+.comments-list .avatar {}
+#content ul.comments-list {margin:0}
+.comments-list li {padding:1em 0 1em 0;line-height:1.2em;list-style:none;margin:0 1em 1.2em 0.8em}
+.comments-list cite {font-weight:bold;font-style:normal;margin:0 0.4em;font-size:1.3em}
+.comments-list small {font-size:1em}
+.comments-list .says, .comments-list .comment-meta {font-size:1.2em}
+.comments-list .comment {margin-top:0.8em}
+.comments-list .comment p {background:url(img/p-bkg.png) repeat;font-size:1.1em;margin:1em 0.5em;padding:1em}
+.reply a {background:url(img/h2-bkg.png) repeat;padding:0.5em 0.7em;text-align:center}
+#reply-title {color:#5288bf;padding:0.8em 0 0.6em 0.5em;font-size:1.7em}
+#reply-title small a {font-size:0.8em}
+#commentform {margin-left:0.6em}
+#commentform  input, #commentform  textarea {padding:0.2em;margin-top:0.5em}
+#commentform  input {background:url(img/search-form-input.png) no-repeat center left;width:200px;height:30px;border:0;text-indent:0.5em}
+#submit {background:url(img/comm-submit-bkg.png) no-repeat center;width:115px;height:30px;color:#5288bf;font-weight:bold;text-align:center;padding-bottom:5px;border:0;font-size:1em;vertical-align:middle;cursor:pointer}
+#submit:hover {color:#a8a285}
+#commentform  textarea {background:url(img/textarea-bkg.png) no-repeat center left;width:500px;height:130px;border:0;font-size:1.2em}
+#commentform  p label {display:block;margin:0.8em 0 0.4em 0;font-size:1.1em}
+.comment-form-comment label {font-size:1.2em;font-weight:bold}
+.comment-notes {background:url(img/p-bkg.png) repeat center;margin:0.5em 1em 1em 0;padding:0.6em 0;font-size:1.2em;font-weight:bold}
+.form-allowed-tags {background:url(img/p-bkg.png) repeat center;margin:0.5em 1.5em 0.5em 0.1em;padding:0.5em;font-size:1.1em;font-weight:bold}
+.form-allowed-tags code {font-weight:normal}
+.nocomments {font-size:2em;margin:2em 0 2em 1em;color:#5288bf}
+#respond {margin-top:1em}
+.comments-list .comment #respond #commentform .comment-form-email, .comments-list .comment #respond #commentform .comment-form-author,
+.comments-list .comment #respond #commentform .comment-form-url, .comments-list .comment #respond #commentform .comment-form-comment, 
+.comments-list .comment #respond #commentform .form-submit {margin:0.5em 0;padding:0;background:none}
+
+/* Nested Comments. Feel free to style this section
+*******************************/
+.comments-list .comment-body p {color:#5288bf}
+.comments-list .comment-author-administrator  .comment-body p {background:url(img/h2-bkg.png) repeat;font-size:1.2em;color:#dc3231}
+.comments-list .comment-author-administrator  .children .children .comment .comment-body p {background:url(img/p-bkg.png) repeat;font-size:1.2em;color:#5288bf}
+.comments-list .comment-author-administrator  .children .children .comment-author-administrator .comment-body p {background:url(img/h2-bkg.png) repeat;font-size:1.2em;color:#dc3231}
+.comments-list .comment-author-administrator  .children .comment .comment-body p {background:url(img/p-bkg.png) repeat;font-size:1.2em;color:#5288bf}
+.comments-list .comment-author-administrator  .children .comment-author-administrator .comment-body p {background:url(img/h2-bkg.png) repeat;font-size:1.2em;color:#dc3231}
+.comments-list .comment-author-administrator  .comment-body .vcard .fn {color:#dc3231}
+.comments-list .comment-author-administrator  .children .comment .comment-body .fn {color:#a8a285}
+.comments-list .comment-author-administrator  .children .comment-author-administrator .children .comment .comment-body .fn {color:#a8a285}
+.comments-list .children .comment-author-administrator  .comment-body .vcard .fn {color:#dc3231}
+.comments-list .comment-author-administrator  .children .comment-author-administrator .children .comment-author-administrator .comment-body .fn {color:#dc3231}
+.comments-list .comment .vcard .fn .url {text-decoration:none}
+.comments-list .comment .vcard .avatar {margin-bottom:0.4em}
+.comments-list .comment .comment-meta a {display:block;margin-top:0.6em}
+.comments-list .comment .reply a {font-size:1.2em;font-weight:bold;margin-top:0.5em}
+.comments-list .comment .children {list-style:none; margin:1em 0 0;text-indent:0}
+.comments-list .comment .children .depth-2 {margin:0 0 0.3em 1.2em}
+.comments-list .comment .children .depth-3 {margin:0 0 0.3em 1.2em}
+.comments-list .comment .children .depth-4 {margin:0 0 0.3em 1.2em}
+.comments-list .comment .children .depth-5 {margin:0 0 0.3em 1.2em}
+.comments-list .pingback .comment-body p {background:url(img/h2-bkg.png) repeat center;margin:1em 0.6em;padding:1em 0;font-style:italic}
+.bypostauthor .comment-body p {color:#a8a285;font-size:1.2em;font-weight:bold}
+/* Search
+************************************/
+#search-again {margin:3.5em 0 0.5em 0.5em}
+#search-again h3 {margin:0.8em 0;color:#0e7c99;font-weight:bold}
+.screen-reader-text {font-size:1.2em}
+#search-results-title {margin-top:1em}
+#search-results-title span{font-size:0.9em;font-weight:bold;color:#5288bf}
+#content .title .no-results .entry-title {background:url(img/h2-bkg.png) repeat center;color:#54bf52;margin:0.8em 0.8em 0.7em 0.6em}
+#content .title .no-results p {background:url(img/p-bkg.png) repeat center;margin:0 1.9em 0 0.7em;padding:1em}
+#content .title .no-results .entry-content {margin-bottom:0}
+#search-again label, .no-results label {display:none}
+.no-results form {margin-top:1em}
+.no-results #s, #search-again #s {display:block;background:url(img/search-text-bkg.png) no-repeat center;width:200px;height:40px;border:0;padding:0.5em 1em;margin-right:6em;text-indent:1em;font-size:1.2em}
+.no-results #searchsubmit, #search-again #searchsubmit {position:relative;top:-3em;left:15.5em;background:url(img/header-search-button.png) no-repeat center;width:60px;height:30px;border:0;font-size:1.2em;color:#54bf52;cursor:pointer}
+#search-again #searchsubmit {top:-3.4em;left:18em}
+.no-results #searchsubmit:hover {color:#5288bf}
+#sidesearch form {width:220px;height:30px;margin:2.5em 0 4em 1em}
+#sidesearch form .text {background:url(img/sidebarsearch-input-bkg.png) no-repeat center;width:160px;height:30px;border:0;margin-top:-2px}
+#sidesearch form .search-submit {background:url(img/search-go.png) no-repeat center;width:40px;height:36px;border:0;margin-top:-2px;font-size:1.5em;position:relative;top:0.2em;left:0.5em;margin-right:7px}
+
+/* Footer
+************************************/
+#footer {background:url(img/transparent.png) repeat;color:#5288bf;font-size:1.4em;min-height:120px;margin:1em 0}
+#footer .top-green {background:url(img/top-left.png) no-repeat top left}
+#footer .bottom-green {background:url(img/bottom-right.png) no-repeat bottom right}
+#footer h3 {margin-top:0.3em;padding-left:0.3em}
+#footer ul li {padding:0.5em;margin-bottom:0.5em}
+#footer ul li a {background:url(img/h2-bkg.png) center repeat;padding:0.6em 0.5em 0.8em 0.5em;text-decoration:none;line-height:1.8em}
+#footer img {vertical-align:middle}
+#footer #copyright {padding-top:0;margin-top:4em}
+#footer p a {text-decoration:none}
+#footer p {text-align:center;margin:1em 0}

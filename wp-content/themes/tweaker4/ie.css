@@ -1,0 +1,85 @@
+/* Styleshheet used for IE browsers */
+
+body{ 
+text-align:center;
+}
+button, 
+input.button{
+position:relative;
+top:0.25em;
+}
+fieldset{
+padding-top:0;
+}
+form.inline div,
+form.inline p{
+vertical-align:middle;
+}
+form.inline label{
+position:relative;
+top:-0.25em;
+}
+form.inline input.checkbox,
+form.inlineinput.radio,
+form.inline input.button,
+form.inline button{ 
+margin:0.5em 0;
+}
+hr{
+margin:-8px auto 11px;
+}
+img{
+-ms-interpolation-mode:bicubic;
+}
+input.checkbox,
+input.radio{
+position:relative; 
+top:.25em;
+}
+input.text,
+input.title{
+background-color:#fff;
+border:1px solid #bbb;
+}
+input.text:focus,
+input.title:focus{
+border-color:#666;
+}
+input.text,
+input.title,
+textarea,select{
+margin:0.5em 0;
+}
+ol{
+margin-left:2em;
+}
+sup{
+vertical-align:text-top;
+}
+sub{
+vertical-align:text-bottom;
+}
+#wrapper{
+text-align:left;
+}
+* html .clearfix,
+* html #wrapper,
+.widget ul li{
+height:1%;
+}
+* html legend{
+margin:0px -8px 16px 0;
+padding:0;
+}
+html>body p code{
+*white-space:normal;
+} 
+.clearfix,
+#wrapper {
+display:inline-block;
+}
+pre{
+width:100%;
+overflow:scroll;
+position:relative;
+}

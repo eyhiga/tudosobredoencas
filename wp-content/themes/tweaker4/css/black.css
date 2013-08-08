@@ -1,0 +1,289 @@
+/* 
+Stylesheet used if the black option is selected in the options page.
+Contains only color related elements, the rest comes from the standard stylesheet.
+*/
+
+/* =Layout
+-------------------------------------------------------------- */
+body{
+color:#888;
+background:#252525;
+}
+#footer-container{
+background:#background:#252525;;
+}
+#footer-bottom{
+color:#777;
+background:#111;
+background-image:-moz-linear-gradient(bottom,  #111,  #222);
+background-image:-webkit-gradient(linear, left bottom, left top, from(#111), to(#222));
+}
+#footer-bottom a:link,
+#footer-bottom a:visited{
+color:#fff;
+}
+#footer-bottom a:hover,
+#footer-bottom a:focus,
+#footer-bottom a:active{
+color:#fff;
+}
+.nav{
+background:#333;
+}
+.archive-results{
+border:1px solid #444;
+background:#333;
+}
+.sticky{
+border:1px solid #222;
+background:#333;
+background:-moz-linear-gradient(bottom,  #252525,  #333);
+background:-webkit-gradient(linear, left bottom, left top, from(#252525), to(#333));
+}
+/* =Calendar
+--------------------------------------------------------- */
+#wp-calendar th{
+background:#333;
+}
+/* =Comments
+------------------------------------------------------------------ */
+ol.commentlist li.comment { 
+border-bottom:1px solid #555;
+} 
+ol.commentlist li.comment div.vcard img.avatar{ 
+border:1px solid #555; 
+background:#444;
+}
+.commentlist li ul.children li.depth-2,
+.commentlist li ul.children li.depth-3,
+.commentlist li ul.children li.depth-4,
+.commentlist li ul.children li.depth-5,
+.commentlist li ul.children li.depth-6,
+.commentlist li ul.children li.depth-7,
+.commentlist li ul.children li.depth-8,
+.commentlist li ul.children li.depth-9,
+.commentlist li ul.children li.depth-10,
+.commentlist li.comment{
+border: 1px solid #444;
+background:#333;
+}
+ol.commentlist li.trackback,
+ol.commentlist li.pingback{
+border: 1px solid #444;
+}
+#respond{
+background:#252525;
+}
+.comment-links{
+border:1px solid #444;
+}
+#respond .required{
+color:#990000;
+}
+#respond input{
+border:1px solid #444;
+color:#777;
+background:#333;
+}
+#respond textarea{
+border:1px solid #444;
+color:#777;
+background:#333;
+}
+#respond .form-submit input{
+border:1px solid #000;
+background:#000;
+color:#777;
+}
+#respond .form-submit input:hover{
+background:#111;
+color:#fff;
+}
+.required{
+color:#ff0000;
+}
+#recentcomments li a{
+background:#fff;
+}
+/* =Forms
+---------------------------------------------------------- */
+.search input[type=text]{
+background:#333;
+border:1px solid #353535;
+color:#777;
+}
+.search input[type=submit]{
+background:#111;
+background-image:-moz-linear-gradient(bottom,  #111,  #222);
+background-image:-webkit-gradient(linear, left bottom, left top, from(#111), to(#222));
+border:1px solid #111;
+color:#777;
+}
+.search input[type=submit]:hover{
+background:#000;
+background-image:-moz-linear-gradient(bottom,  #111,  #000);
+background-image:-webkit-gradient(linear, left bottom, left top, from(#111), to(#000));
+color:#fff;
+}
+/* =Headings
+----------------------------------------------------------- */
+h2 a:link,h2 a:visited,h3 a:link,h3 a:visited,h4 a:link,h4 a:visited,h5 a:link,h5 a:visited,h6 a:link,h6 a:visited {
+color:#bbb;
+}
+h2 a:hover,h2 a:focus,h2 a:active,h3 a:hover,h3 a:focus,h3 a:active,h4 a:hover,h4 a:focus,h4 a:active,h5 a:hover,h5 a:focus,h5 a:active,h6 a:hover,h6 a:focus,h6 a:active {
+border-bottom:1px solid #bbb;
+color:#bbb;
+}
+/* =Images
+---------------------------------------------------------------- */
+.wp-caption{
+background:#222;
+}
+.gallery .gallery-caption{
+color:#777;
+}
+/* =HTML
+--------------------------------------------------- */
+acronym,abbr{
+border-bottom:1px dashed #666;
+}
+table{
+border:1px solid #444;
+}
+table th{
+border-bottom:1px solid #444;
+background:#333;
+}
+table th,table td{
+border:1px solid #444;
+}
+/* =Links
+--------------------------------------------------------------- */
+a:link,a:visited{
+color:#fff;
+}
+a:hover,a:focus,a:active{
+color:#fff;
+}
+/* =Menu
+------------------------------------------------------------- */
+#access{
+background:#111;
+background-image:-moz-linear-gradient(bottom,  #111,  #222);
+background-image:-webkit-gradient(linear, left bottom, left top, from(#111), to(#222));
+}
+#access a{
+color:#777;
+background:#111;
+background-image:-moz-linear-gradient(bottom,  #111,  #222);
+background-image:-webkit-gradient(linear, left bottom, left top, from(#111), to(#222));
+border:none;
+}
+#access ul ul a{
+color:#777;
+background:#111;
+background-image:-moz-linear-gradient(bottom,  #111,  #222);
+background-image:-webkit-gradient(linear, left bottom, left top, from(#111), to(#222));
+border:none;
+}
+#access li:hover > a,
+#access ul ul :hover > a{
+background:#000;
+background-image:-moz-linear-gradient(bottom,  #111,  #000);
+background-image:-webkit-gradient(linear, left bottom, left top, from(#111), to(#000));
+}
+#access li:hover > a{
+color:#fff;
+border:none;
+background:#000;
+background-image:-moz-linear-gradient(bottom,  #111,  #000);
+background-image:-webkit-gradient(linear, left bottom, left top, from(#111), to(#000));
+}
+#access .current_page_item a{
+color:#fff;
+background:#000;
+background-image:-moz-linear-gradient(bottom,  #111,  #000);
+background-image:-webkit-gradient(linear, left bottom, left top, from(#111), to(#000));
+}
+/* =Miscellaneous
+------------------------------------------------------- */
+.page-link a,
+.page-numbers a{
+border:1px solid #444;
+background:#333;
+}
+.page-link a:hover,
+.page-numbers a:hover{
+background:#222;
+}
+.nocomments{
+border:1px solid #444;
+background:#333;
+}
+/* =Post-Formats
+-------------------------------------------------------- */
+.format-aside,
+.format-audio,
+.format-chat,
+.format-gallery,
+.format-image,
+.format-link,
+.format-quote,
+.format-status,
+.format-video{
+border:1px solid #222;
+background:#333;
+background:-moz-linear-gradient(bottom,  #252525,  #333);
+background:-webkit-gradient(linear, left bottom, left top, from(#252525), to(#333));
+}
+/* =Widgets
+------------------------------------------------------- */
+.widget ul li a{
+border-bottom:1px solid #333;
+}
+.widget ul li:first-child{
+border-top:1px solid #333;
+}
+.widget ul li a:hover{
+background:#222 url(../images/arrow.png) left 12px no-repeat;
+}
+.widget ul ul li a:hover{
+background:#222 url(../images/arrow.png) 15px 12px no-repeat
+}
+.widget ul ul ul li a:hover{
+background:#222 url(../images/arrow.png) 30px 12px no-repeat
+}
+.widget ul ul ul ul li a:hover{
+background:#222 url(../images/arrow.png) 45px 12px no-repeat
+}
+.widget ul ul ul ul ul li a:hover{
+background:#222 url(../images/arrow.png) 60px 12px no-repeat;
+}
+/* =WP-PageNavi
+------------------------------------------------------------- */
+.wp-pagenavi a,
+.wp-pagenavi a:link,
+.wp-pagenavi a:visited,
+.wp-pagenavi a:active{
+border:1px solid #ddd;
+}
+.wp-pagenavi a:hover{
+border:1px solid #ddd;
+}
+.wp-pagenavi a:focus,
+.wp-pagenavi a:active{
+border:1px solid #ddd;
+}
+.wp-pagenavi span.current {
+border:1px solid #ddd;
+}
+.wp-pagenavi span.extend{
+border:1px solid #ddd;
+}
+.wp-pagenavi span.pages{
+border:1px solid #ddd;
+}
+.single-page{
+border:none;
+background:#252525;
+}

@@ -1,0 +1,108 @@
+/**
+ * Theme Name: Tuned
+ *
+ * Adding support for language written in a Right To Left (RTL).
+ *
+ * @package      Tuned
+ * @author       Elod Horvath
+ * @copyright    2013-... Elod Horvath
+ * @since        1.0
+ */
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+ul ,
+ol {
+	margin-left: 0;
+	margin-right: 20px;	
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+dd {
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+#primary {
+	float: right;
+	margin-right: 0;
+	margin-left: 2%;
+	margin-bottom: 30px;
+}
+
+#secondary {
+	float: left;
+	margin-bottom: 30px;
+}
+
+.main-navigation li {
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.main-navigation li a {	
+	border-left: 1px solid #FFF;
+		border-right: 0;
+}
+
+.main-navigation li ul {
+	right: 0;
+}
+
+.main-navigation li ul  ul {	
+	right: 100%;	
+}
+
+.main-navigation ul li:hover > ul {		
+	text-align: right;
+}
+
+.comment-author img {
+	float: right;
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+.site-content .nav-previous {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.site-content .nav-next {
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+@media ( max-width: 767px ) {
+
+	#primary {	
+		float: none;
+		margin-left: 0;
+		
+	}
+	
+	.main-navigation li {
+		margin-left: 0;
+	}
+	
+	.main-navigation li a {		
+		border-left: 0;			
+	}
+	
+}
+
+
+

@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tuned\n"
+"POT-Creation-Date: 2013-04-17 01:36+0100\n"
+"PO-Revision-Date: 2013-04-17 01:36+0100\n"
+"Last-Translator: Tuned\n"
+"Language-Team: Elod Horvath <info@tunedthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:18
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: ../comments.php:19
+msgid "No Responses to"
+msgstr ""
+
+#: ../comments.php:19
+msgid "One Response to"
+msgstr ""
+
+#: ../comments.php:19
+msgid "% Responses to"
+msgstr ""
+
+#: ../comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-page.php:20 ../content.php:35
+msgid "Pages:"
+msgstr ""
+
+#: ../content-page.php:24 ../content.php:43 ../inc/widgets.php:114
+msgid "Edit"
+msgstr ""
+
+#: ../content.php:34
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../footer.php:23
+msgid "Powered by WordPress"
+msgstr ""
+
+#: ../footer.php:23
+msgid "and"
+msgstr ""
+
+#: ../footer.php:24
+msgid "Tuned Themes"
+msgstr ""
+
+#: ../functions.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:109
+msgid "Main sidebar"
+msgstr ""
+
+#: ../functions.php:118
+msgid "FrontPage - Total Width Box"
+msgstr ""
+
+#: ../functions.php:119
+msgid ""
+"Appears on the Front Page. This is a total width box. Ideal for the Hero "
+"Widget"
+msgstr ""
+
+#: ../functions.php:126
+msgid "FrontPage - Carousel Box"
+msgstr ""
+
+#: ../functions.php:127
+msgid ""
+"Appears on the Front Page. This is a total width box ONLY for Carousel Widget"
+msgstr ""
+
+#: ../functions.php:138
+msgid "Front Page - Full Width Box"
+msgstr ""
+
+#: ../functions.php:139
+msgid ""
+"Appears on the Front Page. Ideal for the Text Widget, and for the Category "
+"Posts Widget"
+msgstr ""
+
+#: ../functions.php:146
+msgid "Front Page - 3 Column Grid Box"
+msgstr ""
+
+#: ../functions.php:147
+msgid ""
+"Appears on the Front Page. Ideal for the Category Posts Widget. This is a 3 "
+"Column grid, ONLY FOR the Category Posts Widget. (Other widgets appears only "
+"in one column)"
+msgstr ""
+
+#: ../functions.php:176
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../functions.php:179
+msgid "Newer posts <span>&rarr;</span>"
+msgstr ""
+
+#: ../functions.php:199
+msgid "&larr;"
+msgstr ""
+
+#: ../functions.php:200
+msgid "&rarr;"
+msgstr ""
+
+#: ../functions.php:224
+msgid "By"
+msgstr ""
+
+#: ../functions.php:236 ../functions.php:237
+msgid ", "
+msgstr ""
+
+#: ../functions.php:237
+msgid "Tags"
+msgstr ""
+
+#: ../functions.php:240
+msgid "Categories"
+msgstr ""
+
+#: ../header.php:28
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:57
+msgid "Menu"
+msgstr ""
+
+#: ../header.php:58
+msgid "Skip to content"
+msgstr ""
+
+#: ../index.php:29 ../index.php:42
+msgid "No posts to display"
+msgstr ""
+
+#: ../index.php:33
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../search.php:19
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: ../search.php:34
+msgid "Nothing found"
+msgstr ""
+
+#: ../search.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../inc/widgets.php:7
+msgid "Hero Widget"
+msgstr ""
+
+#: ../inc/widgets.php:7
+msgid "This widget displays the Hero Unit"
+msgstr ""
+
+#: ../inc/widgets.php:17
+msgid "Heading"
+msgstr ""
+
+#: ../inc/widgets.php:21
+msgid "Tagline"
+msgstr ""
+
+#: ../inc/widgets.php:25
+msgid "Button"
+msgstr ""
+
+#: ../inc/widgets.php:29
+msgid "Link"
+msgstr ""
+
+#: ../inc/widgets.php:76
+msgid "Category Posts Widget"
+msgstr ""
+
+#: ../inc/widgets.php:76
+msgid "This widget displays posts from a category."
+msgstr ""
+
+#: ../inc/widgets.php:83 ../inc/widgets.php:137
+msgid ""
+"Usage: Add Posts with featured image to a Category, then add the Slug of "
+"Category to this Widget. If you want to display post's featured image ONLY "
+"IN THE WIDGET, rename your image to _icon(eg. yourimage_icon.png)"
+msgstr ""
+
+#: ../inc/widgets.php:84 ../inc/widgets.php:138
+msgid "Slug of the Category"
+msgstr ""
+
+#: ../inc/widgets.php:113 ../inc/widgets.php:165
+msgid "Read more"
+msgstr ""
+
+#: ../inc/widgets.php:129
+msgid "Carousel Widget"
+msgstr ""
+
+#: ../inc/widgets.php:129
+msgid ""
+"Carousel widget displays posts with featured images from a category.(Image "
+"slider with text.)"
+msgstr ""
+
+#: ../templates/infinite-scrolled-blog.php:50
+msgid "Loading..."
+msgstr ""
+
+#: ../templates/infinite-scrolled-blog.php:51
+msgid "All posts loaded."
+msgstr ""

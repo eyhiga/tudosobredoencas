@@ -1,0 +1,20 @@
+/*Stupid IE fixes*/
+h2 {_line-height:1.1em}
+div#sidesearch form {width:200px}
+div#sidesearch form input.text {width:160px}
+div#sidesearch form input.search-submit {top:-2.2em;left:11em;margin-right:0.5em}
+input.search-submit {position:relative;top:-35px}
+div#header-searchform form input#s {padding-top:2.5em;padding-left:2.5em}
+div#header-searchform input#header-searchsubmit {top:-4.5em}
+#content  .title h2, h2.page-title {_margin-top:2em}
+.nav-entries {_width:664px}
+#content .category  {_width:380px}
+#content .comments {_width:75px}
+#content .postdata  {_padding-bottom:1.5em}
+div#left-block {_width:290px}
+div.widget h3 {margin-top:2em}
+div#left-block div.widget {_margin-top:1em;_margin-bottom:1em}
+div.green-draw .transparent, div.blue-draw .transparent, div#header .transparent, div.widget .transparent {_padding-top:1em;_padding-bottom:2em}
+#left-block .transparent {_padding-bottom:3em}
+h2#search-results-title {_margin-top:2em}
+div#footer .copyright {margin-top:4em}
